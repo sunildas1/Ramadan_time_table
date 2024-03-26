@@ -23,7 +23,7 @@ a{
 
 .logo{
     position: absolute;
-    top: 5px;
+    top: 2px;
     left: 55%;
     transform: translateX(-50%);
 }
@@ -34,10 +34,11 @@ a{
 
 .main{
     position: absolute;
-    top: 42%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    margin-top: -60px;
 }
 
 .main h1{
@@ -91,16 +92,91 @@ a{
 
 .namaz_time .details{
     text-align: center;
-    margin-top: 32px;
+    margin-top: 25px;
     position: relative;
+}
+
+.namaz_box_1 {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #777;
+    background: #5bea3d;
+	position: absolute;
+	top: -50%;
+	left: 50%;
+	transform: translate(-50%);
+    cursor: pointer;
+}
+.namaz_box_2 {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #777;
+    background: #5bea3d;
+	position: absolute;
+	top: -50%;
+	left: 50%;
+	transform: translate(-50%);
+    cursor: pointer;
+}
+
+.namaz_box_3 {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #777;
+    background: #5bea3d;
+	position: absolute;
+	top: -50%;
+	left: 50%;
+	transform: translate(-50%);
+    cursor: pointer;
+}
+
+.namaz_box_4 {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #777;
+    background: #5bea3d;
+	position: absolute;
+	top: -50%;
+	left: 50%;
+	transform: translate(-50%);
+    cursor: pointer;
+}
+
+.namaz_box_5 {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #777;
+    background: #5bea3d;
+	position: absolute;
+	top: -50%;
+	left: 50%;
+	transform: translate(-50%);
+    cursor: pointer;
+}
+
+.details h5{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 5px;
+}
+
+.details .timing{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
 }
 
 .namaz_time .details::after{
     width: 37px;
     height: 2px;
-    background: #777;
+    background: #2b2b2b;
     position: absolute;
-    top: -52%;
+    top: -26%;
     left: 50%;
     content: "";
     transform: translate(44%,50%);
@@ -110,24 +186,11 @@ a{
     display: none;
 }
 
-.details input[type="radio"]{
+/* .details input[type="radio"]{
     display: none;
 }
   
-.details h5{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    cursor: pointer;
-    position: relative;
-}
 
-.details .timing{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    cursor: pointer;
-}
   
 .details h5::before {
     content: "";
@@ -161,6 +224,6 @@ input[type="radio"]:checked + h5::before {
   
 input[type="radio"]:checked + h5::after {
     transform: translateY(-50%) scale(1);
-}
+} */
 
 /* -------------End------------- */
